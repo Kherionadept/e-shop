@@ -7,7 +7,7 @@ from .decorators import admin_requerido
 @login_required
 @admin_requerido
 def dashboard():
-    return render_template('admin/index.html')
+    return render_template('admin/home.html')
 
 @admin_bp.route('/admin/productos')
 def productos():
