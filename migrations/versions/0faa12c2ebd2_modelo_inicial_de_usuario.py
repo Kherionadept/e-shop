@@ -1,8 +1,8 @@
 """modelo inicial de usuario
 
-Revision ID: 7c3acbbcbbb5
+Revision ID: 0faa12c2ebd2
 Revises: 
-Create Date: 2026-06-29 15:50:05.229355
+Create Date: 2026-07-03 13:20:32.778732
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '7c3acbbcbbb5'
+revision = '0faa12c2ebd2'
 down_revision = None
 branch_labels = None
 depends_on = None
